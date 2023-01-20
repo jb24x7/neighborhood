@@ -1,15 +1,14 @@
 let form = document.getElementById('form');
 let p = document.getElementById('results');
-let number1 = Number(document.querySelector("input#number1").value);
 
-function generator(number1) {
+function generator() {
 
+  let number1 = Number(document.querySelector("input#number1").value);
   let results = [];
 
   for (let index = 0; index <= number1; index++) {
 
     results.push(index.toString());
-    console.log(index);
 
   }
 
@@ -50,10 +49,8 @@ function wordChange(text) {
 }
 
 form.addEventListener("submit", function (event) {
-
   let p = document.getElementById('results');
   p.innerHTML = "";
   event.preventDefault();
   p.append(wordChange(generator()).join(', '));
-  
 })
