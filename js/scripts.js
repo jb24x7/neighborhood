@@ -50,8 +50,10 @@ function wordChange(text) {
 }
 
 form.addEventListener("submit", function (event) {
+
   let p = document.getElementById('results');
   p.innerHTML = "";
   event.preventDefault();
   p.append(wordChange(generator()).join(', '));
+  
 })
