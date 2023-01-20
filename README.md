@@ -26,8 +26,8 @@ A page that takes a number and generates text based off the number.
 * Expected Output: [0, 1, 2, 3, 4, 5]
 
 ### Describe: wordChange()
-* Test: "It should return an array of numbers and words replacing numbers that contain 3, 2, or 1"
-* Code: generator(5);
+* Test: "It should return an array of numbers and words replacing numbers that contain 3, 2, or 1 based on the array fed from generator()"
+* Code: wordChange(generator(5));
 * Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]
 
 ## License
