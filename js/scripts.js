@@ -4,7 +4,6 @@ let number1 = Number(document.querySelector("input#number1").value);
 
 function generator(number1) {
 
-  // let number1 = Number(document.querySelector("input#number1").value);
   let results = [];
 
   for (let index = 0; index <= number1; index++) {
