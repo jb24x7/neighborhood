@@ -1,6 +1,6 @@
 let form = document.getElementById('form');
 let p = document.getElementById('results')
-let userInput = document.getElementById('number1')
+// let userInput = document.getElementById('number1')
 
 function genertator() {
   let number1 = Number(document.querySelector("input#number1").value);
