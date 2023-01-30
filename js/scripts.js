@@ -1,5 +1,4 @@
 let form = document.getElementById('form');
-let p = document.getElementById('results');
 
 function generator() {
 
